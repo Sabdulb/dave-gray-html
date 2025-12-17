@@ -33,15 +33,19 @@
 
                 <h2> I'm ready to learn HTML</h2>
                 <p> This is not my first web page.</p>
-                <img src="img/html5.png" alt="HTML5 Logo" title="I am learning HTML5" width="512" height="width">
-                <figure>
-                    <figcaption>An example of HTML5 code</figcaption>
-                    <p>
-                        <code>
-                            &lt;h1&gt;Hello World!&lt;/h1&gt;
-                        </code>
-                    </p>
-                </figure>
+                <section>
+                    <img src="img/html5.png" alt="HTML5 Logo" title="I am learning HTML5" width="512" height="width">
+                    <figure>
+                        <h3>HTML5</h3>
+                        <figcaption>An example of HTML5 code</figcaption>
+                        <p>
+                            <code>
+                                &lt;h1&gt;Hello World!&lt;/h1&gt;
+                            </code>
+                        </p>
+                    </figure>
+                </section>
+                <section>
                 <h3> My daily Schedule</h3>
                 <p> Let me tell you how I: </p>
                     <ol>
@@ -49,7 +53,15 @@
                         <li>...I plan out my schedule. </li>
                         <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr>. </li>
                     </ol>
-
+                    <aside>
+                        <details>
+                            <summary>
+                                Guess the <mark>number of hours</mark> I code per day
+                            </summary>
+                            <p>I start at <time datetime="08:00">8 am </time>and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+                        </details>
+                    </aside>
+                </section>
             </article>
 
             <hr>
@@ -60,43 +72,46 @@
                 <p> I've been working hard and <em>really need a getaway</em></p>
                 <p> I live in <abbr title="Virginia"> VA </abbr> so I want to visit the beach!</p>
 
+                <section>
                 <h3> Places I'd like to visit</h3>
                 <ul>
                     <li>
-                    <p> I've heard good things about the caribbean</p>
-                    <figure>
-                        <img src="img/caribbean.jpg" alt="Caribbean Beach" title="I want to visit a Caribbean beach." width="400" height="225" loading="lazy">
-                        <figcaption>
-                            Caribbean Beach Getaway
-                        </figcaption>
-                    </figure>
+                        <p> I've heard good things about the caribbean</p>
+                        <figure>
+                            <img src="img/caribbean.jpg" alt="Caribbean Beach" title="I want to visit a Caribbean beach." width="400" height="225" loading="lazy">
+                            <figcaption>
+                                Caribbean Beach Getaway
+                            </figcaption>
+                        </figure>
+                        </li>
+                        <li>
+                        <p> I've heard good things about going here:</p>
+                        <address>
+                            4400 University Dr, Fairfax, VA 22030 <br>
+                            4400 University Dr, Fairfax, VA 22030 <br>
+                            4400 University Dr, Fairfax, VA 22030
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="Fairfax Vacation" title="It's 5 o'Clock Somewhere!" width="400" height="267" loading="lazy">
+                            <figcaption>A Caribbean Vacation Image</figcaption>
+                        </figure>
                     </li>
-                    <li>
-                    <p> I've heard good things about going here:</p>
-                    <address>
-                        4400 University Dr, Fairfax, VA 22030 <br>
-                        4400 University Dr, Fairfax, VA 22030 <br>
-                        4400 University Dr, Fairfax, VA 22030
-                    </address>
-                    <figure>
-                        <img src="img/vacation.jpg" alt="Fairfax Vacation" title="It's 5 o'Clock Somewhere!" width="400" height="267" loading="lazy">
-                        <figcaption>A Caribbean Vacation Image</figcaption>
-                    </figure>
-                </li>
                 </ul>
+                </section>
                 <!-- TODO: Add more places -->
-                <h3> Places I want to Avoid</h3>
-                <dl>
-                    <dt> North Pole</dt>
-                    <dd> I hear this is <strong> cold </strong>! </dd>
-                    
-                    <dt> South Pole</dt>
-                    <dd> This is also cold.</dd>
+                <section>
+                    <h3> Places I want to Avoid</h3>
+                    <dl>
+                        <dt> North Pole</dt>
+                        <dd> I hear this is <strong> cold </strong>! </dd>
+                        
+                        <dt> South Pole</dt>
+                        <dd> This is also cold.</dd>
 
-                    <dt> Mountain Tops</dt>
-                    <dd> These are also cold.</dd>
-                </dl>
-
+                        <dt> Mountain Tops</dt>
+                        <dd> These are also cold.</dd>
+                    </dl>
+                </section>
             </article>
         </main>
         <hr>
